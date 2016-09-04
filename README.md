@@ -6,7 +6,7 @@ npm install eslint-config-suddi
 
 ## Usage
 
-- Add some ESLint config to your `package.json`:
+- Add ESLint config to your `package.json`, for running on backend code:
 
 ```json
 {
@@ -17,7 +17,23 @@ npm install eslint-config-suddi
 		"eslint": "^2.0.0"
 	},
 	"eslintConfig": {
-		"extends": "suddi"
+		"extends": "suddi/backend"
+	}
+}
+```
+
+- Add ESLint config to your `package.json`, for running on backend code:
+
+```json
+{
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"eslint": "^2.0.0"
+	},
+	"eslintConfig": {
+		"extends": "suddi/backend"
 	}
 }
 ```

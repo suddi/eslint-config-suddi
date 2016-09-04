@@ -1,5 +1,9 @@
 # eslint-config-suddi
 
+````
+npm install eslint-config-suddi
+````
+
 ## Usage
 
 - Add some ESLint config to your `package.json`:

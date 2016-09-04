@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
   "description": "Personal Eslint Configuration",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "",
   "author": {
     "name": "Suddi",
@@ -21,6 +21,7 @@
       "url": "https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE"
     }
   ],
+  "keywords": ["eslint", "eslint-plugin-react"],
   "engines": {
     "node": ">= 4.2.3",
     "npm": ">= 2.14.7"

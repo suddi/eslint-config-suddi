@@ -1,25 +1,24 @@
 {
-  "name": "eslint-config-buildgreenr",
-  "private": true,
-  "description": "BuildGreenr Eslint Configuration",
+  "name": "eslint-config-suddi",
+  "description": "Personal Eslint Configuration",
   "version": "1.0.0",
   "homepage": "",
   "author": {
-    "name": "BuildGreenr Limited",
-    "email": "founders@buildgreenr.com",
-    "url": "https://buildgreenr.com"
+    "name": "Suddi",
+    "email": "suddir@gmail.com",
+    "url": "https://github.com/suddi"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/buildgreenr/eslint-config-buildgreenr"
+    "url": "https://github.com/suddi/eslint-config-suddi"
   },
   "bugs": {
-    "url": "https://bitbucket.org/buildgreenr/eslint-config-buildgreenr/issues"
+    "url": "https://github.com/suddi/eslint-config-suddi/issues"
   },
   "licenses": [
     {
-      "type": "Private",
-      "url": ""
+      "type": "MIT",
+      "url": "https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE"
     }
   ],
   "engines": {

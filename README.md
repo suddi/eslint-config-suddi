@@ -1,4 +1,4 @@
-# eslint-config-buildgreenr
+# eslint-config-suddi
 
 ## Usage
 
@@ -13,7 +13,7 @@
 		"eslint": "^2.0.0"
 	},
 	"eslintConfig": {
-		"extends": "buildgreenr"
+		"extends": "suddi"
 	}
 }
 ```

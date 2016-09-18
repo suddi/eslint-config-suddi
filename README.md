@@ -3,7 +3,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://circleci.com/gh/suddi/eslint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 [![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-config-suddi)
-[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://github.com/suddi/eslint-config-suddi)
+[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 

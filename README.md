@@ -1,5 +1,10 @@
 # eslint-config-suddi
 
+[![CircleCI](https://circleci.com/gh/suddi/eslint-config-suddi.svg?style=svg)](https://circleci.com/gh/suddi/eslint-config-suddi)
+[![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
+
+[![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
+
 ````
 npm install eslint-config-suddi
 ````

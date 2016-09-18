@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/suddi/eslint-config-suddi/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "keywords": ["eslint", "eslint-plugin-react"],
   "engines": {
     "node": ">= 4.2.3",

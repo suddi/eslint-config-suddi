@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
-  "description": "Personal Eslint Configuration",
-  "version": "1.0.6",
+  "description": "Eslint configuration",
+  "version": "1.0.7",
   "homepage": "",
   "author": {
     "name": "Suddi",

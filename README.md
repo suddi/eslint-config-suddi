@@ -2,6 +2,7 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://circleci.com/gh/suddi/eslint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/eslint-config-suddi?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=suddi/eslint-config-suddi&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-config-suddi)
 [![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE)
 

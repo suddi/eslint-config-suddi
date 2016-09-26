@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
   "description": "Eslint configuration for both backend node.js and frontend react.js development",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "",
   "author": {
     "name": "Suddi",

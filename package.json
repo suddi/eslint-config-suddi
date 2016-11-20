@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
   "description": "Eslint configuration for both backend node.js and frontend react.js development",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "",
   "author": {
     "name": "Suddi",
@@ -34,6 +34,7 @@
   "dependencies": {
     "eslint-config-xo": "^0.12.0",
     "eslint-config-xo-react": "^0.5.0",
+    "eslint-plugin-react": "^4.0.0",
     "lodash": "^4.6.1"
   },
   "devDependencies": {

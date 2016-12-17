@@ -42,6 +42,9 @@ module.exports = {
         'jsx-quotes': ['error', 'prefer-single'],
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-        'react/jsx-closing-bracket-location': ['error', 'after-props']
+        'react/jsx-closing-bracket-location': ['error', 'after-props'],
+
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
+        'react/forbid-component-props': 'off'
     })
 };

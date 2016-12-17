@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
   "description": "Eslint configuration for both backend node.js and frontend react.js development",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "homepage": "https://github.com/suddi/eslint-config-suddi",
   "author": {
     "name": "Suddi",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "eslint": "^3.0.0",
     "husky": "^0.12.0",
-    "istanbul": "^0.4.5",
+    "istanbul": "^0.4.0",
     "mocha": "^3.2.0"
   },
   "eslintConfig": {

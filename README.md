@@ -25,7 +25,7 @@ npm install eslint-config-suddi
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"eslint": "^2.0.0"
+		"eslint": "^3.0.0"
 	},
 	"eslintConfig": {
 		"extends": "suddi/backend"
@@ -41,7 +41,7 @@ npm install eslint-config-suddi
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"eslint": "^2.0.0"
+		"eslint": "^3.0.0"
 	},
 	"eslintConfig": {
 		"extends": "suddi/frontend"

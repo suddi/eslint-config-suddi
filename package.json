@@ -2,7 +2,7 @@
   "name": "eslint-config-suddi",
   "description": "Eslint configuration for both backend node.js and frontend react.js development",
   "version": "3.0.5",
-  "homepage": "https://github.com/suddi/eslint-config-suddi",
+  "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
   "author": {
     "name": "Suddi",
     "email": "suddir@gmail.com",

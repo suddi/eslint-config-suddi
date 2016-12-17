@@ -5,8 +5,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/eslint-config-suddi?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=suddi/eslint-config-suddi&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/dt/eslint-config-suddi.svg)]()
 [![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-config-suddi)
-[![David](https://img.shields.io/david/suddi/eslint-config-suddi.svg)](https://github.com/suddi/eslint-config-suddi/blob/master/package.json)
-[![David](https://img.shields.io/david/dev/suddi/eslint-config-suddi.svg)](https://github.com/suddi/eslint-config-suddi/blob/master/package.json)
+[![David](https://img.shields.io/david/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi)
+[![David](https://img.shields.io/david/dev/suddi/eslint-config-suddi.svg)](https://david-dm.org/fedor/node-no-config?type=dev)
 [![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)

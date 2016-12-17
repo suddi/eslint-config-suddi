@@ -1,7 +1,6 @@
 'use strict';
 
-const _ = require('lodash');
-const backend_rules = require('./backend').rules;
+const backendRules = require('./backend').rules;
 
 module.exports = {
     extends: [
@@ -15,32 +14,34 @@ module.exports = {
         mocha: true
     },
 
-    rules: _.merge(_.cloneDeep(backend_rules), {
+    rules: Object.assign({}, backendRules, {
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-        'react/jsx-indent-props': [2, 4],
+        'react/jsx-indent-props': ['error', 4],
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-        'react/jsx-indent': [2, 4],
+        'react/jsx-indent': ['error', 4],
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-        'react/jsx-no-bind': 0,
+        'react/jsx-no-bind': 'off',
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
-        'react/no-is-mounted': 2,
+        'react/no-is-mounted': 'error',
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-        'react/no-multi-comp': 0,
+        'react/no-multi-comp': 'off',
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
-        'react/prefer-es6-class': 0,
+        'react/prefer-es6-class': 'off',
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-        'react/prop-types': [2, {ignore: ['children']}],
+        'react/prop-types': ['error', {
+            ignore: ['children']
+        }],
 
         // http://eslint.org/docs/rules/jsx-quotes
-        'jsx-quotes': [2, 'prefer-single'],
+        'jsx-quotes': ['error', 'prefer-single'],
 
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-        'react/jsx-closing-bracket-location': [2, 'after-props']
+        'react/jsx-closing-bracket-location': ['error', 'after-props']
     })
 };

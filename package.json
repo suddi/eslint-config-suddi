@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-suddi",
   "description": "Eslint configuration for both backend node.js and frontend react.js development",
-  "version": "1.0.14",
-  "homepage": "",
+  "version": "3.0.0",
+  "homepage": "https://github.com/suddi/eslint-config-suddi",
   "author": {
     "name": "Suddi",
     "email": "suddir@gmail.com",
@@ -32,16 +32,15 @@
     "test": "npm run lint && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
-    "eslint-config-xo": "^0.12.0",
+    "eslint-config-xo": "^0.17.0",
     "eslint-config-xo-react": "^0.5.0",
-    "eslint-plugin-react": "^4.0.0",
-    "lodash": "^4.6.1"
+    "eslint-plugin-react": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^2.4.0",
-    "husky": "^0.11.3",
+    "eslint": "^3.0.0",
+    "husky": "^0.12.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.0.2"
+    "mocha": "^3.2.0"
   },
   "eslintConfig": {
     "extends": "./backend.js"

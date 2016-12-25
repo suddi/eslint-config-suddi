@@ -47,9 +47,7 @@ module.exports = {
         // }],
 
         // http://eslint.org/docs/rules/no-param-reassign
-        'no-param-reassign': ['error', {
-            props: true
-        }],
+        'no-param-reassign': ['off'],
 
         /**
          * +++++++++++++
@@ -91,6 +89,9 @@ module.exports = {
         indent: ['error', 4, {
             SwitchCase: 1
         }],
+
+        // http://eslint.org/docs/rules/max-params
+        'max-params': ['error', 6]
 
         // http://eslint.org/docs/rules/new-cap
         'new-cap': 'error',

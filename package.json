@@ -34,7 +34,7 @@
     "coverage": "istanbul cover _mocha -- --opts tes/options/default.opts",
     "doctest": "mocha --opts test/options/doctest.opts",
     "lint": "eslint .",
-    "prepush": "npm run lint",
+    "prepush": "npm run test",
     "security-check": "nsp check --output summary",
     "start": "ntl",
     "test": "npm run lint && npm run security-check && npm run doctest && npm run coverage && npm run check-coverage"

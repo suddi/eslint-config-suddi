@@ -1,13 +1,13 @@
 # eslint-config-suddi
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://circleci.com/gh/suddi/eslint-config-suddi)
+[![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi.svg)](https://circleci.com/gh/suddi/eslint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/eslint-config-suddi?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=suddi/eslint-config-suddi&amp;utm_campaign=Badge_Grade)
-[![npm](https://img.shields.io/npm/dt/eslint-config-suddi.svg)]()
-[![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-config-suddi)
+[![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg)](https://www.npmjs.com/package/eslint-config-suddi)
+[![npm](https://img.shields.io/npm/dt/eslint-config-suddi.svg)](https://www.npmjs.com/package/eslint-config-suddi)
 [![David](https://img.shields.io/david/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi)
 [![David](https://img.shields.io/david/dev/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi?type=dev)
-[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg)](https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 
@@ -51,7 +51,9 @@ npm install eslint-config-suddi
 
 - Then apply the linter with `npm run lint`.
 
-## Setup eslint for Sublime Text 3
+## Setup for different editors
+
+### Sublime Text
 
 - Add the following to your `~/.bashrc` or `~/.zshrc`:
 
@@ -65,4 +67,9 @@ fi
 
 - Install [`Package Control`](https://packagecontrol.io/installation)
 - Install `SublimeLinter` and `SublimeLinter-contrib-eslint` via `Package Control`
-- Restart Sublime Text 3
+- Restart Sublime Text
+
+### Atom
+
+- Install `linter` and `linter-eslint` from within the available packages
+- Restart Atom

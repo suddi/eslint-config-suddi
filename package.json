@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-suddi",
-  "description": "Eslint configuration for both backend node.js and frontend react.js development",
+  "description": "Eslint configuration for both backend Node.js and frontend React.js development",
   "version": "3.0.7",
   "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
   "author": {
-    "name": "Suddi",
+    "name": "Sudharshan Ravindrna",
     "email": "suddir@gmail.com",
-    "url": "https://github.com/suddi"
+    "url": "https://suddi.github.io"
   },
   "repository": {
     "type": "git",
@@ -15,21 +15,29 @@
   "bugs": {
     "url": "https://github.com/suddi/eslint-config-suddi/issues"
   },
+  "files": [
+    "backend.js",
+    "frontend.js"
+  ],
+  "main": "backend.js",
   "license": "MIT",
   "keywords": [
     "eslint",
     "eslint-plugin-react"
   ],
   "engines": {
-    "node": ">= 4.2.3",
-    "npm": ">= 2.14.7"
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
   },
   "scripts": {
     "check-coverage": "istanbul check-coverage",
-    "coverage": "istanbul cover _mocha -- -R spec",
+    "coverage": "istanbul cover _mocha -- --opts tes/options/default.opts",
+    "doctest": "mocha --opts test/options/doctest.opts",
     "lint": "eslint .",
     "prepush": "npm run lint",
-    "test": "npm run lint && npm run coverage && npm run check-coverage"
+    "security-check": "nsp check --output summary",
+    "start": "ntl",
+    "test": "npm run lint && npm run security-check && npm run doctest && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
     "eslint-config-xo": "^0.17.0",
@@ -40,7 +48,10 @@
     "eslint": "^3.0.0",
     "husky": "^0.12.0",
     "istanbul": "^0.4.0",
-    "mocha": "^3.2.0"
+    "jsdoctest": "^1.7.0",
+    "mocha": "^3.2.0",
+    "nsp": "^2.6.2",
+    "ntl": "^1.1.3"
   },
   "eslintConfig": {
     "extends": "./backend.js"

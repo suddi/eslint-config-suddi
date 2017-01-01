@@ -1,5 +1,4 @@
 backend.js
 frontend.js
---recursive
 --require jsdoctest
 --reporter spec

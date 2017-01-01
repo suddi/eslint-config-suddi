@@ -31,13 +31,13 @@
   },
   "scripts": {
     "check-coverage": "istanbul check-coverage",
-    "coverage": "istanbul cover _mocha -- --opts tes/options/default.opts",
+    "coverage": "istanbul cover _mocha -- --opts test/options/default.opts",
     "doctest": "mocha --opts test/options/doctest.opts",
     "lint": "eslint .",
     "prepush": "npm run test",
     "security-check": "nsp check --output summary",
     "start": "ntl",
-    "test": "npm run lint && npm run security-check && npm run doctest && npm run coverage && npm run check-coverage"
+    "test": "npm run lint && npm run doctest && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
     "eslint-config-xo": "^0.17.0",
@@ -45,15 +45,17 @@
     "eslint-plugin-react": "^6.0.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^3.0.0",
     "husky": "^0.12.0",
     "istanbul": "^0.4.0",
     "jsdoctest": "^1.7.0",
     "mocha": "^3.2.0",
     "nsp": "^2.6.2",
-    "ntl": "^1.1.3"
+    "ntl": "^1.1.3",
+    "react": "^15.4.1"
   },
   "eslintConfig": {
-    "extends": "./backend.js"
+    "extends": "./frontend.js"
   }
 }

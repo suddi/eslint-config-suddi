@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-function run() {
+function npmtest() {
     rm -rf node_modules
     npm cache clean
     nvm use $1
@@ -8,17 +8,23 @@ function run() {
     npm test
 }
 
-case "$CIRCLE_NODE_INDEX" in
-    0)
-        npm test
-        ;;
-    1)
-        run 4
-        ;;
-    2)
-        run 5
-        ;;
-    3)
-        run 6
-        ;;
-esac
+function run () {
+    case "$CIRCLE_NODE_INDEX" in
+        0)
+            npm test
+            ;;
+        1)
+            npmtest 4
+            ;;
+        2)
+            npmtest 5
+            ;;
+        3)
+            npmtest 6
+            ;;
+        *)
+            ;;
+    esac
+}
+
+run

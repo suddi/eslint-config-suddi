@@ -4,6 +4,6 @@ machine:
 test:
     override:
         - ./bin/ci.sh:
-          parallel: true
+            parallel: true
     post:
         - bash <(curl -s https://codecov.io/bash)

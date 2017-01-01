@@ -51,6 +51,12 @@ npm install eslint-config-suddi
 
 - Then apply the linter with `npm run lint`.
 
+## Examples
+
+For examples on use cases and validation samples, please see:
+* [For backend rules](test/backend/fixtures)
+* [For frontend rules](test/frontend/fixtures)
+
 ## Setup for different editors
 
 ### Sublime Text

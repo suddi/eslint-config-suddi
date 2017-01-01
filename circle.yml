@@ -3,7 +3,7 @@ machine:
         version: '6.9.2'
 test:
     override:
-        - . ./scripts/ci.sh:
+        - ./bin/ci.sh:
           parallel: true
     post:
         - bash <(curl -s https://codecov.io/bash)

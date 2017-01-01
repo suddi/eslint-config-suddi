@@ -37,7 +37,7 @@
     "prepush": "npm run test",
     "security-check": "nsp check --output summary",
     "start": "ntl",
-    "test": "npm run lint && npm run doctest && npm run coverage && npm run check-coverage"
+    "test": "npm run lint && npm run security-check && npm run doctest && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
     "eslint-config-xo": "^0.17.0",

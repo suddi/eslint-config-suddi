@@ -12,7 +12,7 @@
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 
 ````
-npm install eslint-config-suddi
+npm install --save-dev eslint-config-suddi
 ````
 
 ## Usage
@@ -25,7 +25,8 @@ npm install eslint-config-suddi
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"eslint": "^3.0.0"
+		"eslint": "^3.0.0",
+		"eslint-config-suddi": "^3.0.0"
 	},
 	"eslintConfig": {
 		"extends": "suddi/backend"
@@ -41,7 +42,9 @@ npm install eslint-config-suddi
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"eslint": "^3.0.0"
+		"eslint": "^3.0.0",
+		"eslint-config-suddi": "^3.0.0",
+		"eslint-plugin-react": "^6.0.0"
 	},
 	"eslintConfig": {
 		"extends": "suddi/frontend"

@@ -82,3 +82,4 @@ fi
 
 - Install `linter` and `linter-eslint` from within the available packages
 - Restart Atom
+

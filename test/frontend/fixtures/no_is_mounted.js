@@ -17,7 +17,7 @@ module.exports.incorrect = React.createClass({
     handleClick: function () {
         setTimeout(function () {
             if (this.isMounted()) {
-                return;
+                return 42;
             }
         });
     },

@@ -7,7 +7,7 @@
 [![npm](https://img.shields.io/npm/dt/eslint-config-suddi.svg)](https://www.npmjs.com/package/eslint-config-suddi)
 [![David](https://img.shields.io/david/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi)
 [![David](https://img.shields.io/david/dev/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi?type=dev)
-[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg)](https://github.com/suddi/eslint-config-suddi/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg)](https://raw.githubusercontent.com/suddi/eslint-config-suddi/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 

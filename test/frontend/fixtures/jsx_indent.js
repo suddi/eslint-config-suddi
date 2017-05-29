@@ -2,16 +2,16 @@
 
 const React = require('react');
 
-const Component = React.createClass({
-    render: function () {
+class Component extends React.Component {
+    render() {
         return (
             <div>Hello World!</div>
         );
     }
-});
+}
 
-module.exports.correct = React.createClass({
-    render: function () {
+class CorrectComponent extends React.Component {
+    render() {
         return (
             <div>
                 <Component/>
@@ -19,14 +19,17 @@ module.exports.correct = React.createClass({
             </div>
         );
     }
-});
+}
 
-module.exports.incorrect = React.createClass({
-    render: function () {
+class IncorrectComponent extends React.Component {
+    render() {
         return (
             <div>
             <Component/>
             </div>
         );
     }
-});
+}
+
+module.exports.correct = CorrectComponent;
+module.exports.incorrect = IncorrectComponent;

@@ -1,28 +1,31 @@
 'use strict';
 
 const React = require('react');
-const PropTypes = React.PropTypes;
+const PropTypes = require('prop-types');
 
-module.exports.correct = React.createClass({
-    propTypes: {
-        handleClick: PropTypes.func.isRequired
-    },
-
-    render: function () {
+class CorrectComponent extends React.Component {
+    render() {
         return <div onClick={this.props.handleClick}>Hello</div>;
     }
-});
+}
 
-module.exports.incorrect = React.createClass({
-    handleClick: function () {
+CorrectComponent.propTypes = {
+    handleClick: PropTypes.func.isRequired
+};
+
+class IncorrectComponent extends React.Component {
+    handleClick() {
         setTimeout(function () {
             if (this.isMounted()) {
                 return 42;
             }
         });
-    },
+    }
 
-    render: function () {
+    render() {
         return <div onClick={this.handleClick.bind(this)}>Hello</div>;
     }
-});
+}
+
+module.exports.correct = CorrectComponent;
+module.exports.incorrect = IncorrectComponent;

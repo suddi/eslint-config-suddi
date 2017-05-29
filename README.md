@@ -1,5 +1,7 @@
 # eslint-config-suddi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/eslint-config-suddi.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi.svg)](https://circleci.com/gh/suddi/eslint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/eslint-config-suddi)

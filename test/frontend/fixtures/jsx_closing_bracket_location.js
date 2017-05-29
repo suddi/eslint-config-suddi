@@ -1,35 +1,38 @@
 'use strict';
 
 const React = require('react');
-const PropTypes = React.PropTypes;
+const PropTypes = require('prop-types');
 
-const Component = React.createClass({
-    propTypes: {
-        name: PropTypes.string.isRequired
-    },
-
-    render: function () {
+class Component extends React.Component {
+    render() {
         return (
             <div>Hello {this.props.name}!</div>
         );
     }
-});
+}
 
-module.exports.correct = React.createClass({
-    render: function () {
+Component.propTypes = {
+    name: PropTypes.string.isRequired
+};
+
+class CorrectComponent extends React.Component {
+    render() {
         return (
             <Component
                 name='Steven Hyde'/>
         );
     }
-});
+}
 
-module.exports.incorrect = React.createClass({
-    render: function () {
+class IncorrectComponent extends React.Component {
+    render() {
         return (
             <Component
                 name='Steven Hyde'
             />
         );
     }
-});
+}
+
+module.exports.correct = CorrectComponent;
+module.exports.incorrect = IncorrectComponent;

@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "chai": "^4.0.0",
-    "eslint": "^3.0.0",
+    "eslint": "^4.1.0",
     "husky": "^0.13.0",
     "istanbul": "^0.4.0",
     "jsdoctest": "^1.0.0",

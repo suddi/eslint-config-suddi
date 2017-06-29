@@ -5,6 +5,10 @@ const backendRules = require('./node-tab');
 module.exports = {
     extends: 'xo',
 
+    plugins: [
+        'angular'
+    ],
+
     env: {
         browser: true,
 

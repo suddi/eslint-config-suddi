@@ -20,16 +20,16 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/avoid-scope-typos.md
-        'avoid-scope-typos': 'error',
+        'angular/avoid-scope-typos': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/module-getter.md
-        'module-getter': 'warn',
+        'angular/module-getter': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/module-setter.md
-        'module-setter': 'warn',
+        'angular/module-setter': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-private-call.md
-        'no-private-call': 'error',
+        'angular/no-private-call': 'error',
 
         /**
          * ++++++++++++++++++
@@ -38,46 +38,46 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/component-limit.md
-        'component-limit': ['warn', 3],
+        'angular/component-limit': ['warn', 3],
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/controller-as-route.md
-        'controller-as-route': 'error',
+        'angular/controller-as-route': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/controller-as-vm.md
-        'controller-as-vm': 'error',
+        'angular/controller-as-vm': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/controller-as.md
-        'controller-as': 'warn',
+        'angular/controller-as': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/deferred.md
         deferred: 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/di-unused.md
-        'di-unused': 'error',
+        'angular/di-unused': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/directive-restrict.md
-        'directive-restrict': 'error',
+        'angular/directive-restrict': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/empty-controller.md
-        'empty-controller': 'error',
+        'angular/empty-controller': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-controller.md
-        'no-controller': 'warn',
+        'angular/no-controller': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-inline-template.md
-        'no-inline-template': 'error',
+        'angular/no-inline-template': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-run-logic.md
-        'no-run-logic': 'warn',
+        'angular/no-run-logic': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-services.md
-        'no-services': 'warn',
+        'angular/no-services': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/on-watch.md
-        'on-watch': 'error',
+        'angular/on-watch': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/prefer-component.md
-        'prefer-component': 'warn',
+        'angular/prefer-component': 'warn',
 
         /**
          * +++++++++++++++++++++++++++++++
@@ -86,13 +86,13 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-cookiestore.md
-        'no-cookiestore': 'error',
+        'angular/no-cookiestore': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-directive-replace.md
-        'no-directive-replace': 'error',
+        'angular/no-directive-replace': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-http-callback.md
-        'no-http-callback': 'error',
+        'angular/no-http-callback': 'error',
 
         /**
          * ++++++++++
@@ -101,37 +101,37 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/component-name.md
-        'component-name': 'off',
+        'angular/component-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/constant-name.md
-        'constant-name': 'off',
+        'angular/constant-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/controller-name.md
-        'controller-name': 'off',
+        'angular/controller-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/directive-name.md
-        'directive-name': 'off',
+        'angular/directive-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/factory-name.md
-        'factory-name': 'off',
+        'angular/factory-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/file-name.md
-        'file-name': 'off',
+        'angular/file-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/filter-name.md
-        'filter-name': 'off',
+        'angular/filter-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/module-name.md
-        'module-name': 'off',
+        'angular/module-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/provider-name.md
-        'provider-name': 'off',
+        'angular/provider-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/service-name.md
-        'service-name': 'off',
+        'angular/service-name': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/value-name.md
-        'value-name': 'off',
+        'angular/value-name': 'off',
 
         /**
          * +++++++++++++++
@@ -140,31 +140,31 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/di-order.md
-        'di-order': 'off',
+        'angular/di-order': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/di.md
         di: 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/dumb-inject.md
-        'dumb-inject': 'error',
+        'angular/dumb-inject': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/function-type.md
-        'function-type': 'off',
+        'angular/function-type': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/module-dependency-order.md
-        'module-dependency-order': 'off',
+        'angular/module-dependency-order': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-service-method.md
-        'no-service-method': 'error',
+        'angular/no-service-method': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/one-dependency-per-line.md
-        'one-dependency-per-line': 'off',
+        'angular/one-dependency-per-line': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rest-service.md
-        'rest-service': ['error', '$http'],
+        'angular/rest-service': ['error', '$http'],
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/watchers-execution.md
-        'watchers-execution': ['error', '$apply'],
+        'angular/watchers-execution': ['error', '$apply'],
 
         /**
          * ++++++++++++++++++++
@@ -179,49 +179,49 @@ module.exports = {
         definedundefined: 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/document-service.md
-        'document-service': 'error',
+        'angular/document-service': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/foreach.md
         foreach: 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/interval-service.md
-        'interval-service': 'error',
+        'angular/interval-service': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/json-functions.md
-        'json-functions': 'off',
+        'angular/json-functions': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/log.md
         log: 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-angular-mock.md
-        'no-angular-mock': 'error',
+        'angular/no-angular-mock': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-jquery-angularelement.md
-        'no-jquery-angularelement': 'error',
+        'angular/no-jquery-angularelement': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/timeout-service.md
-        'timeout-service': 'error',
+        'angular/timeout-service': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/typecheck-array.md
-        'typecheck-array': 'error',
+        'angular/typecheck-array': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/typecheck-date.md
-        'typecheck-date': 'error',
+        'angular/typecheck-date': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/typecheck-function.md
-        'typecheck-function': 'error',
+        'angular/typecheck-function': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/typecheck-number.md
-        'typecheck-number': 'error',
+        'angular/typecheck-number': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/typecheck-object.md
-        'typecheck-object': 'error',
+        'angular/typecheck-object': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/typecheck-string.md
-        'typecheck-string': 'error',
+        'angular/typecheck-string': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/window-service.md
-        'window-service': 'warn',
+        'angular/window-service': 'warn',
 
         /**
          * +++++++++++++++
@@ -230,6 +230,6 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/on-destroy.md
-        'on-destroy': 'error'
+        'angular/on-destroy': 'error'
     })
 };

@@ -43,7 +43,7 @@ module.exports = {
 
         // http://eslint.org/docs/rules/consistent-return
         // 'consistent-return': ['error', {
-            // treatUndefinedAsUnspecified: true
+        // treatUndefinedAsUnspecified: true
         // }],
 
         // http://eslint.org/docs/rules/no-param-reassign

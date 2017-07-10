@@ -54,7 +54,7 @@
     "eslint": "^3.0.0",
     "husky": "0.13.0",
     "istanbul": "^0.4.0",
-    "jsdoctest": "git+ssh://git@github.com:yamadapc/jsdoctest.git",
+    "jsdoctest": "git+ssh://git@github.com/yamadapc/jsdoctest.git",
     "mocha": "^3.0.0",
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",

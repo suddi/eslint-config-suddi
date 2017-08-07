@@ -1,6 +1,6 @@
 # eslint-config-suddi
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi.svg)](https://circleci.com/gh/suddi/eslint-config-suddi)
+[![CircleCI](https://img.shields.io/circleci/project/suddi/eslint-config-suddi/master.svg)](https://circleci.com/gh/suddi/eslint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/eslint-config-suddi)
 [![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg)](https://www.npmjs.com/package/eslint-config-suddi)
@@ -12,8 +12,10 @@
 
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 
+**NOTE:** This repo is currently incompatible with eslint@^4.0.0, this will be corrected soon.
+
 ````
-npm install --save-dev eslint-config-suddi
+npm install --save-dev eslint@^3.0.0 eslint-config-suddi
 ````
 
 ## Usage
@@ -27,7 +29,7 @@ npm install --save-dev eslint-config-suddi
     },
     "devDependencies": {
         "eslint": "^3.0.0",
-        "eslint-config-suddi": "^3.0.0"
+        "eslint-config-suddi": "^4.0.0"
     },
     "eslintConfig": {
         "extends": "suddi/backend"

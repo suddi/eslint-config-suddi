@@ -87,6 +87,9 @@ module.exports = {
          * ++++++++++++++++++++
          */
 
+        // http://eslint.org/docs/rules/capitalized-comments
+        'capitalized-comments': 'off',
+
         // http://eslint.org/docs/rules/indent
         indent: ['error', 4, {
             SwitchCase: 1

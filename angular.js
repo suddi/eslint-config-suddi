@@ -54,7 +54,7 @@ module.exports = {
         'angular/controller-as': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/deferred.md
-        deferred: 'error',
+        'deferred': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/di-unused.md
         'angular/di-unused': 'error',
@@ -147,7 +147,7 @@ module.exports = {
         'angular/di-order': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/di.md
-        di: 'off',
+        'di': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/dumb-inject.md
         'angular/dumb-inject': 'error',
@@ -177,16 +177,16 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/angularelement.md
-        angularelement: 'warn',
+        'angularelement': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/definedundefined.md
-        definedundefined: 'error',
+        'definedundefined': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/document-service.md
         'angular/document-service': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/foreach.md
-        foreach: 'warn',
+        'foreach': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/interval-service.md
         'angular/interval-service': 'error',
@@ -195,7 +195,7 @@ module.exports = {
         'angular/json-functions': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/log.md
-        log: 'off',
+        'log': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/no-angular-mock.md
         'angular/no-angular-mock': 'error',

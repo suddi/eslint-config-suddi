@@ -43,23 +43,25 @@
     "start": "ntl",
     "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage"
   },
-  "dependencies": {
-    "eslint-config-xo": "^0.18.0",
-    "eslint-config-xo-react": "^0.13.0",
-    "eslint-plugin-angular": "^3.0.0",
-    "eslint-plugin-react": "^7.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.0.0",
-    "eslint": "^3.0.0",
+    "eslint": "^4.0.0",
     "husky": "^0.14.0",
     "istanbul": "^0.4.0",
-    "jsdoctest": "git+ssh://git@github.com/yamadapc/jsdoctest.git",
+    "jsdoctest": "^1.0.0",
     "mocha": "^3.0.0",
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",
     "prop-types": "^15.0.0",
-    "react": "^15.0.0"
+    "react": "^15.6.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0"
   },
   "eslintConfig": {
     "extends": "./frontend.js"

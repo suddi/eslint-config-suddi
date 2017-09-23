@@ -1,9 +1,9 @@
 'use strict';
 
-const backendRules = require('./node');
-
 module.exports = {
-    extends: 'xo',
+    extends: [
+        './node.js'
+    ].map(require.resolve),
 
     env: {
         browser: false,
@@ -15,10 +15,10 @@ module.exports = {
         generators: true
     },
 
-    rules: Object.assign({}, backendRules.rules, {
-        // http://eslint.org/docs/rules/indent
+    rules: {
+        // https://eslint.org/docs/rules/indent
         indent: ['error', 'tab', {
             SwitchCase: 1
         }]
-    })
+    }
 };

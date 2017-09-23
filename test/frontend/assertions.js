@@ -4,20 +4,6 @@
 
 module.exports.get = function (rule) {
     const rules = {
-        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-        jsx_indent_props: {
-            numError: 1,
-            ruleId: 'react/jsx-indent-props',
-            severity: 2
-        },
-
-        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-        jsx_indent: {
-            numError: 1,
-            ruleId: 'react/jsx-indent',
-            severity: 2
-        },
-
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
         no_is_mounted: {
             numError: 1,

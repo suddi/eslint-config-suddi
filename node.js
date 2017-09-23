@@ -530,7 +530,7 @@ module.exports = {
         'func-style': 'off',
 
         // https://eslint.org/docs/rules/function-paren-newline
-        'function-paren-newline': ['error', 'multiline'],
+        'function-paren-newline': ['error', 'consistent'],
 
         // https://eslint.org/docs/rules/id-blacklist
         'id-blacklist': 'off',
@@ -543,7 +543,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/indent
         'indent': ['error', 4, {
-            SwitchCase: 2
+            SwitchCase: 1
         }],
 
         // https://eslint.org/docs/rules/jsx-quotes

@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
-  "description": "Eslint configuration for both backend Node.js and frontend React.js development",
-  "version": "4.0.3",
+  "description": "Eslint configuration for both backend Node.js, frontend Angular.js and React.js development",
+  "version": "4.0.7",
   "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -43,13 +43,9 @@
     "start": "ntl",
     "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage"
   },
-  "dependencies": {
-    "eslint-config-xo-react": "^0.13.0",
-    "eslint-plugin-angular": "^3.0.0",
-    "eslint-plugin-react": "^7.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "chai": "^4.0.2",
+    "chai": "^4.0.0",
     "eslint": "^4.0.0",
     "husky": "^0.14.0",
     "istanbul": "^0.4.0",
@@ -59,6 +55,10 @@
     "ntl": "^1.0.0",
     "prop-types": "^15.0.0",
     "react": "^15.6.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"

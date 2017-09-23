@@ -19,13 +19,13 @@ function getPath(directory, filename) {
 
 describe('Integration Tests for the Frontend eslint configuration', function () {
     const filenames = fs.readdirSync(getPath('fixtures')).filter(function (filename) {
-        return filename.endsWith('.js');
+        return filename.endsWith('.jsx');
     });
 
     filenames.map(function (filename, index) {
         it(`CASE ${index + 1}: Testing ${filename}`, function () {
             const code = fs.readFileSync(getPath('fixtures', filename)).toString();
-            const assertion = assertions.get(filename.replace('.js', ''));
+            const assertion = assertions.get(filename.replace('.jsx', ''));
             const errors = lint(code, config);
 
             expect(errors.length).to.eql(assertion.numError);

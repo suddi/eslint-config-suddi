@@ -2,14 +2,14 @@
 
 module.exports = {
     parserOptions: {
-
         ecmaVersion: 2017,
 
         sourceType: 'module',
 
         ecmaFeatures: {
-            jsx: true,
-            experimentalObjectRestSpread: true
+            experimentalObjectRestSpread: true,
+            generators: true,
+            jsx: true
         }
     },
 
@@ -18,10 +18,6 @@ module.exports = {
         es6: true,
         mocha: true,
         node: true
-    },
-
-    ecmaFeatures: {
-        generators: true
     },
 
     // http://eslint.org/docs/rules/
@@ -551,7 +547,7 @@ module.exports = {
         }],
 
         // https://eslint.org/docs/rules/jsx-quotes
-        'jsx-quotes': 'error',
+        'jsx-quotes': ['error', 'prefer-single'],
 
         // https://eslint.org/docs/rules/key-spacing
         'key-spacing': ['error', {

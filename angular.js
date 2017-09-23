@@ -1,9 +1,9 @@
 'use strict';
 
-const backendRules = require('./node-tab');
-
 module.exports = {
-    extends: 'xo',
+    extends: [
+        './node-tab.js'
+    ].map(require.resolve),
 
     plugins: [
         'angular'
@@ -16,7 +16,7 @@ module.exports = {
     },
 
     // https://github.com/Gillespie59/eslint-plugin-angular#rules
-    rules: Object.assign({}, backendRules.rules, {
+    rules: {
         /**
          * +++++++++++++++++++
          * + Possible Errors +
@@ -54,7 +54,7 @@ module.exports = {
         'angular/controller-as': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/deferred.md
-        'deferred': 'error',
+        // 'deferred': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/di-unused.md
         'angular/di-unused': 'error',
@@ -177,16 +177,16 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/angularelement.md
-        'angularelement': 'warn',
+        // 'angularelement': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/definedundefined.md
-        'definedundefined': 'error',
+        // 'definedundefined': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/document-service.md
         'angular/document-service': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/foreach.md
-        'foreach': 'warn',
+        // 'foreach': 'warn',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/interval-service.md
         'angular/interval-service': 'error',
@@ -235,5 +235,5 @@ module.exports = {
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/on-destroy.md
         'angular/on-destroy': 'error'
-    })
+    }
 };

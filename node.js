@@ -836,7 +836,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/prefer-destructuring
         'prefer-destructuring': ['error', {
-            array: true,
+            array: false,
             object: false
         }, {
             enforceForRenamedProperties: false

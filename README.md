@@ -12,15 +12,17 @@
 
 [![codecov](https://codecov.io/gh/suddi/eslint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/eslint-config-suddi)
 
-**NOTE:** This repo is currently incompatible with eslint@^4.0.0, this will be corrected soon.
-
 ````
-npm install --save-dev eslint@^3.0.0 eslint-config-suddi
+npm install --save-dev eslint eslint-config-suddi
 ````
 
 ## Usage
 
 - Add ESLint config to your `package.json`, for running on backend code:
+
+````
+npm install --save-dev eslint eslint-config-suddi
+````
 
 ```json
 {
@@ -28,7 +30,7 @@ npm install --save-dev eslint@^3.0.0 eslint-config-suddi
         "lint": "eslint ."
     },
     "devDependencies": {
-        "eslint": "^3.0.0",
+        "eslint": "^4.0.0",
         "eslint-config-suddi": "^4.0.0"
     },
     "eslintConfig": {
@@ -37,7 +39,11 @@ npm install --save-dev eslint@^3.0.0 eslint-config-suddi
 }
 ```
 
-- Add ESLint config to your `package.json`, for running on frontend code:
+- Add ESLint config to your `package.json`, for running on React.js code:
+
+````
+npm install --save-dev eslint eslint-config-suddi eslint-plugin-react
+````
 
 ```json
 {
@@ -45,12 +51,34 @@ npm install --save-dev eslint@^3.0.0 eslint-config-suddi
         "lint": "eslint ."
     },
     "devDependencies": {
-        "eslint": "^3.0.0",
-        "eslint-config-suddi": "^3.0.0",
+        "eslint": "^4.0.0",
+        "eslint-config-suddi": "^4.0.0",
         "eslint-plugin-react": "^6.0.0"
     },
     "eslintConfig": {
-        "extends": "suddi/frontend"
+        "extends": "suddi/react"
+    }
+}
+```
+
+- Add ESLint config to your `package.json`, for running on Angular code:
+
+````
+npm install --save-dev eslint eslint-config-suddi eslint-plugin-angular
+````
+
+```json
+{
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "^4.0.0",
+        "eslint-config-suddi": "^4.0.0",
+        "eslint-plugin-angular": "^3.0.0"
+    },
+    "eslintConfig": {
+        "extends": "suddi/angular"
     }
 }
 ```
@@ -79,10 +107,24 @@ fi
 
 - Install [`Package Control`](https://packagecontrol.io/installation)
 - Install `SublimeLinter` and `SublimeLinter-contrib-eslint` via `Package Control`
+- Run `npm install -g eslint eslint-config-suddi eslint-plugin-react eslint-plugin-angular`
 - Restart Sublime Text
 
 ### Atom
 
 - Install `linter` and `linter-eslint` from within the available packages
+- Run `npm install -g eslint eslint-config-suddi eslint-plugin-react eslint-plugin-angular`
 - Restart Atom
 
+### Webstorm
+
+- Install [`ESLint`](https://plugins.jetbrains.com/plugin/7494-eslint)
+- Run `npm install -g eslint eslint-config-suddi eslint-plugin-react eslint-plugin-angular`
+- Restart Webstorm
+
+### Visual Studio Code
+
+- Select `Shell Command: Install ‘code’ command in PATH` via `Command Palette`
+- Install `ESLint` package from within the available extensions
+- Run `npm install -g eslint eslint-config-suddi eslint-plugin-react eslint-plugin-angular`
+- Restart Visual Studio Code

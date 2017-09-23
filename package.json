@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
-  "description": "Eslint configuration for both backend Node.js, frontend Angular.js and React.js development",
-  "version": "4.0.7",
+  "description": "Eslint configurations for Node.js, Angular.js and React.js development",
+  "version": "4.0.8",
   "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -27,7 +27,12 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslint-plugin-react"
+    "eslint-plugin-react",
+    "eslint-plugin-angular",
+    "react",
+    "angular",
+    "javascript",
+    "rules"
   ],
   "engines": {
     "node": ">= 4.0.0",

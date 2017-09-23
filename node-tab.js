@@ -16,7 +16,7 @@ module.exports = {
     },
 
     rules: {
-        // http://eslint.org/docs/rules/indent
+        // https://eslint.org/docs/rules/indent
         indent: ['error', 'tab', {
             SwitchCase: 1
         }]

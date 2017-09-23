@@ -11,7 +11,7 @@ function npmtest() {
 function run () {
     case "$CIRCLE_NODE_INDEX" in
         0)
-            npm test
+            npmtest 6
             ;;
         1)
             npmtest 4
@@ -20,7 +20,7 @@ function run () {
             npmtest 5
             ;;
         3)
-            npmtest 6
+            npmtest 8
             ;;
         *)
             ;;

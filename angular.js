@@ -53,6 +53,7 @@ module.exports = {
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/controller-as.md
         'angular/controller-as': 'warn',
 
+        // DEPRECATED
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/deferred.md
         // 'deferred': 'error',
 
@@ -176,15 +177,18 @@ module.exports = {
          * ++++++++++++++++++++
          */
 
+        // DEPRECATED
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/angularelement.md
         // 'angularelement': 'warn',
 
+        // DEPRECATED
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/definedundefined.md
         // 'definedundefined': 'error',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/document-service.md
         'angular/document-service': 'error',
 
+        // DEPRECATED
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/foreach.md
         // 'foreach': 'warn',
 

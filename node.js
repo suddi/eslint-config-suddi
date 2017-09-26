@@ -530,7 +530,7 @@ module.exports = {
         'func-style': 'off',
 
         // https://eslint.org/docs/rules/function-paren-newline
-        'function-paren-newline': ['error', 'consistent'],
+        'function-paren-newline': 'off',
 
         // https://eslint.org/docs/rules/id-blacklist
         'id-blacklist': 'off',

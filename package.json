@@ -59,7 +59,7 @@
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",
     "prop-types": "^15.0.0",
-    "react": "^15.6.1"
+    "react": "^16.0.0"
   },
   "optionalDependencies": {
     "eslint-plugin-angular": "^3.0.0",

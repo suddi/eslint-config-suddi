@@ -17,7 +17,7 @@ function getPath(directory, filename) {
     return path.join(__dirname, directory);
 }
 
-describe('Integration Tests for the Frontend eslint configuration', function () {
+describe('Integration Tests eslint rules defined in frontend.js', function () {
     const filenames = fs.readdirSync(getPath('fixtures')).filter(function (filename) {
         return filename.endsWith('.jsx');
     });

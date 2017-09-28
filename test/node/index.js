@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const expect = require('chai').expect;
 
-const config = require('../../backend');
+const config = require('../../node');
 const lint = require('../utils/lint');
 const assertions = require('./assertions');
 
@@ -17,7 +17,7 @@ function getPath(directory, filename) {
     return path.join(__dirname, directory);
 }
 
-describe('Integration Tests eslint rules defined in backend.js', function () {
+describe('Integration Tests eslint rules defined in node.js', function () {
     const filenames = fs.readdirSync(getPath('fixtures')).filter(function (filename) {
         return filename.endsWith('.js');
     });

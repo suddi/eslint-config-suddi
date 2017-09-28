@@ -24,7 +24,7 @@ There are multiple rulesets provided:
 - [suddi/backend](backend.js) - rules for node.js development using 4-space indentation
 - [suddi/frontend](frontend.js) - rules for react development
 - [suddi/node-tab](node-tab.js) - rules for node.js development using tab indentation
-- [suddi/react](react.js) - rules for react developemnt
+- [suddi/react](react.js) - rules for react development
 
 ## Usage
 

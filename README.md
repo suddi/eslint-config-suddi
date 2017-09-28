@@ -16,8 +16,7 @@
 npm install --save-dev eslint eslint-config-suddi
 ````
 
-
-## Usage
+## Rulesets
 
 There are multiple rulesets provided:
 
@@ -26,6 +25,8 @@ There are multiple rulesets provided:
 - [suddi/frontend](frontend.js) - rules for react development
 - [suddi/node-tab](node-tab.js) - rules for node.js development using tab indentation
 - [suddi/react](react.js) - rules for react developemnt
+
+## Usage
 
 - Add ESLint config to your `package.json`, for running on backend code:
 

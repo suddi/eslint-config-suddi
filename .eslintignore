@@ -55,5 +55,9 @@ jspm_packages
 # ------------------------------------------------------------------------------
 # CUSTOM
 # ------------------------------------------------------------------------------
+test/angular/fixtures
 test/backend/fixtures
 test/frontend/fixtures
+test/node-tab/fixtures
+test/node/fixtures
+test/react/fixtures

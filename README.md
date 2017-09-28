@@ -16,7 +16,16 @@
 npm install --save-dev eslint eslint-config-suddi
 ````
 
+
 ## Usage
+
+There are multiple rulesets provided:
+
+- [suddi/angular](angular.js) - rules for angular@^1.0.0 development
+- [suddi/backend](backend.js) - rules for node.js development using 4-space indentation
+- [suddi/frontend](frontend.js) - rules for react development
+- [suddi/node-tab](node-tab.js) - rules for node.js development using tab indentation
+- [suddi/react](react.js) - rules for react developemnt
 
 - Add ESLint config to your `package.json`, for running on backend code:
 
@@ -88,8 +97,12 @@ npm install --save-dev eslint eslint-config-suddi eslint-plugin-angular
 ## Examples
 
 For examples on use cases and validation samples, please see:
+* [For angular rules](test/angular/fixtures)
 * [For backend rules](test/backend/fixtures)
 * [For frontend rules](test/frontend/fixtures)
+* [For node-tab rules](test/node-tab/fixtures)
+* [For node rules](test/node/fixtures)
+* [For react rules](test/react/fixtures)
 
 ## Setup for different editors
 

@@ -15,8 +15,17 @@ module.exports = {
         mocha: true
     },
 
-    // https://github.com/Gillespie59/eslint-plugin-angular#rules
     rules: {
+        /**
+         * +++++++++++++
+         * + Variables +
+         * +++++++++++++
+         */
+        
+        // http://eslint.org/docs/rules/no-undef
+        'no-undef': 'off',
+        
+        // https://github.com/Gillespie59/eslint-plugin-angular#rules
         /**
          * +++++++++++++++++++
          * + Possible Errors +

@@ -21,10 +21,10 @@ module.exports = {
          * + Variables +
          * +++++++++++++
          */
-        
+
         // http://eslint.org/docs/rules/no-undef
         'no-undef': 'off',
-        
+
         // https://github.com/Gillespie59/eslint-plugin-angular#rules
         /**
          * +++++++++++++++++++

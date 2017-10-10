@@ -33,7 +33,7 @@ module.exports = {
          */
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/avoid-scope-typos.md
-        'angular/avoid-scope-typos': 'error',
+        'angular/avoid-scope-typos': 'off',
 
         // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/module-getter.md
         'angular/module-getter': 'warn',

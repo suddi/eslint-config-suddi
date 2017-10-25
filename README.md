@@ -142,3 +142,4 @@ fi
 - Install `ESLint` package from within the available extensions
 - Run `npm install -g eslint eslint-config-suddi eslint-plugin-react eslint-plugin-angular`
 - Restart Visual Studio Code
+

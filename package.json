@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
   "description": "Eslint configurations for Node.js, Angular.js and React.js development",
-  "version": "4.0.14",
+  "version": "4.0.15",
   "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -57,7 +57,7 @@
     "husky": "^0.14.0",
     "istanbul": "^0.4.0",
     "jsdoctest": "^1.0.0",
-    "mocha": "^5.0.0",
+    "mocha": "^4.0.0",
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",
     "prop-types": "^15.0.0",

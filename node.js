@@ -156,7 +156,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/complexity
         'complexity': ['error', {
-            max: 5
+            max: 10
         }],
 
         // https://eslint.org/docs/rules/consistent-return
@@ -489,12 +489,7 @@ module.exports = {
         }],
 
         // https://eslint.org/docs/rules/capitalized-comments
-        'capitalized-comments': ['error', 'always', {
-            // You can also ignore this rule by wrapping the first word in quotes
-            ignorePattern: 'pragma|ignore',
-            ignoreInlineComments: true,
-            ignoreConsecutiveComments: true
-        }],
+        'capitalized-comments': 'off',
 
         // https://eslint.org/docs/rules/comma-dangle
         'comma-dangle': ['error', 'never'],
@@ -669,7 +664,7 @@ module.exports = {
         'object-curly-newline': 'off',
 
         // https://eslint.org/docs/rules/object-curly-spacing
-        'object-curly-spacing': ['error', 'never'],
+        'object-curly-spacing': 'off',
 
         // https://eslint.org/docs/rules/object-property-newline
         'object-property-newline': 'off',

@@ -5,7 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/Suddi/eslint-config-suddi)
 [![npm](https://img.shields.io/npm/v/eslint-config-suddi.svg)](https://www.npmjs.com/package/eslint-config-suddi)
 [![npm](https://img.shields.io/npm/dt/eslint-config-suddi.svg)](https://www.npmjs.com/package/eslint-config-suddi)
-[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/eslint-config-suddi.svg)](https://greenkeeper.io/)
+
 [![David](https://img.shields.io/david/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi)
 [![David](https://img.shields.io/david/dev/suddi/eslint-config-suddi.svg)](https://david-dm.org/suddi/eslint-config-suddi?type=dev)
 [![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg)](https://raw.githubusercontent.com/suddi/eslint-config-suddi/master/LICENSE)

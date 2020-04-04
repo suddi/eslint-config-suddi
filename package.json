@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-suddi",
   "description": "Eslint configurations for Node.js, Angular.js and React.js development",
-  "version": "4.0.16",
+  "version": "5.0.0",
   "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",

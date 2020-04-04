@@ -40,8 +40,8 @@ npm install --save-dev eslint eslint-config-suddi
         "lint": "eslint ."
     },
     "devDependencies": {
-        "eslint": "^4.0.0",
-        "eslint-config-suddi": "^4.0.0"
+        "eslint": "^6.0.0",
+        "eslint-config-suddi": "^5.0.0"
     },
     "eslintConfig": {
         "extends": "suddi/backend"
@@ -61,9 +61,9 @@ npm install --save-dev eslint eslint-config-suddi eslint-plugin-react
         "lint": "eslint ."
     },
     "devDependencies": {
-        "eslint": "^4.0.0",
-        "eslint-config-suddi": "^4.0.0",
-        "eslint-plugin-react": "^6.0.0"
+        "eslint": "^6.0.0",
+        "eslint-config-suddi": "^5.0.0",
+        "eslint-plugin-react": "^7.0.0"
     },
     "eslintConfig": {
         "extends": "suddi/react"
@@ -83,9 +83,9 @@ npm install --save-dev eslint eslint-config-suddi eslint-plugin-angular
         "lint": "eslint ."
     },
     "devDependencies": {
-        "eslint": "^4.0.0",
-        "eslint-config-suddi": "^4.0.0",
-        "eslint-plugin-angular": "^3.0.0"
+        "eslint": "^6.0.0",
+        "eslint-config-suddi": "^5.0.0",
+        "eslint-plugin-angular": "^4.0.0"
     },
     "eslintConfig": {
         "extends": "suddi/angular"
